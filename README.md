@@ -1,2 +1,2 @@
-# Zero
+# zero
  Beginner | Item practice
