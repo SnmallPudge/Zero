@@ -207,7 +207,7 @@ class TrainMnistDataset:
                                optimizer, loss_func, epoch_cur)
 
 def run():
-    data_root_dir = "D:/pydemo/OpenCV/mnist/"
+    data_root_dir = "./mnist/"
     trian_mnist = TrainMnistDataset(data_root_dir=data_root_dir)
     trian_mnist.train()
 
