@@ -5,7 +5,6 @@ import torch.optim as optim
 from torchvision import datasets, transforms
 from torch.autograd import Variable
 import time
-start = time.clock()
 
 batch_size = 64
 
@@ -94,7 +93,5 @@ for epoch in range(1, 10):
     train(epoch)
     test()
 
-end = time.clock()
-print("运行耗时", end-start)
 
 
